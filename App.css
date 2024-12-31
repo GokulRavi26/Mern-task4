@@ -1,0 +1,54 @@
+/* Ensure body takes up full height */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Background Settings */
+.page-container-home {
+  background-image: url('/hopg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.page-container-aboutus {
+  background-image: url('/abpg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styling Cards */
+.card {
+  width: 18rem;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
